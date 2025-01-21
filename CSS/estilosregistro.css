@@ -1,0 +1,52 @@
+#body_registro {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    background-color: rgba(122, 29, 29, 0.637);
+}
+
+.contenedor_registro {
+    background-color: #3134ec;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgb(0, 0, 0);
+    margin: 0 auto;
+    max-width: 400px;
+    width: 100%;
+}
+
+.contenedor_registro h2 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #000000;
+}
+
+.contenedor_registro label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.contenedor_registro input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #0e6b12;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contenedor_registro button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+
