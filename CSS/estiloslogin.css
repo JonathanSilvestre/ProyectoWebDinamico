@@ -7,12 +7,12 @@ body {
     margin: 0;
 }
 
-.contenedor_registro {
+.contenedor_login {
     background-color: #a0030bb4;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 300px;
     text-align: center;
 }
 
@@ -32,11 +32,8 @@ label {
     text-align: left;
 }
 
-input[type="text"],
-input[type="password"],
 input[type="email"],
-input[type="date"],
-select {
+input[type="password"] {
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
