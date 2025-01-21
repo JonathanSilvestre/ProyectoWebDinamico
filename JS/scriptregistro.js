@@ -15,7 +15,7 @@ const firebaseConfig = {
 const db = getFirestore(app);
 const usuarios = collection(db, "usuarios");
 
-fetch('/Data/Paises.JSON')
+fetch('Data/Paises.JSON')
     .then(response => response.json())
     .then(data => {
         const paisSelect = document.getElementById('pais_registro');
