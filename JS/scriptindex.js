@@ -37,3 +37,75 @@ document.getElementById('desconectar').addEventListener('click', function() {
     localStorage.removeItem('username');
     location.reload();
 });
+
+
+const img1 = document.getElementById('img1');
+const img2 = document.getElementById('img2');
+const img3 = document.getElementById('img3');
+const img4 = document.getElementById('img4');
+let posicion = 0;
+let direccion = "derecha";
+
+function moverImagen1() {
+    let intervalo = setInterval(function(){ 
+      if(direccion === "derecha" && posicion >= 300) {
+          direccion = "izquierda";
+      } else if(direccion === "izquierda" && posicion <= -300) {
+          direccion = "derecha";
+      }
+      if(direccion === "derecha") {
+          posicion++;
+      } else {
+          posicion--;
+      }
+      img1.style.left = posicion + "px";
+    }, 10);
+}
+
+function moverImagen2() {
+    let intervalo = setInterval(function(){ 
+      if(direccion === "derecha" && posicion >= 300) {
+          direccion = "izquierda";
+      } else if(direccion === "izquierda" && posicion <= -300) {
+          direccion = "derecha";
+      }
+      if(direccion === "derecha") {
+          posicion++;
+      } else {
+          posicion--;
+      }
+      img2.style.left = posicion + "px";
+    }, 10);
+}
+
+function moverImagen3() {
+    let intervalo = setInterval(function(){ 
+      if(direccion === "derecha" && posicion >= 300) {
+          direccion = "izquierda";
+      } else if(direccion === "izquierda" && posicion <= -300) {
+          direccion = "derecha";
+      }
+      if(direccion === "derecha") {
+          posicion++;
+      } else {
+          posicion--;
+      }
+      img3.style.left = posicion + "px";
+    }, 10);
+}
+
+function moverImagen4() {
+    let intervalo = setInterval(function(){ 
+      if(direccion === "derecha" && posicion >= 300) {
+          direccion = "izquierda";
+      } else if(direccion === "izquierda" && posicion <= -300) {
+          direccion = "derecha";
+      }
+      if(direccion === "derecha") {
+          posicion++;
+      } else {
+          posicion--;
+      }
+      img4.style.left = posicion + "px";
+    }, 10);
+}
